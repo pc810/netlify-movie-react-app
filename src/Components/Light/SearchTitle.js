@@ -9,8 +9,7 @@ function SearchTitle (props) {
         //getMovieByName
         console.log(event.target.value);
         fetch('https://reverent-darwin-514260.netlify.app/.netlify/functions/api/getMovieByName?name='+event.target.value,{
-        mode: 'no-cors',    
-        headers : { 
+            headers : { 
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'
             }  

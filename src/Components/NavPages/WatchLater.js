@@ -9,8 +9,7 @@ function WatchLater(){
             let values = {ids:user.favourite_list};
             console.log("values", values);
             let requestOptions = {
-                method: 'POST',
-                mode: 'no-cors',    
+                method: 'POST',                
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(values)
             };

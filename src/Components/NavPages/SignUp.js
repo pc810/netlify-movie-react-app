@@ -25,6 +25,7 @@ function SignUp (){
         fetch('https://reverent-darwin-514260.netlify.app/.netlify/functions/api/register', requestOptions)
         .then(response => {
             console.log(response)
+            window.location = "/Login";
         }).catch(error => {
             console.log(error)
         })

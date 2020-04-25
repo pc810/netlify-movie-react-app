@@ -109,7 +109,7 @@ const ReviewComp = ({mid,list,triggerParentUpdate})=>{
                         <>
                             <h3>
                                 {item.heading}
-                                <Rate disabled value={item.imdb_rating} style={{float:"right"}}/>
+                                <Rate disabled value={item.imdb_rating/2} style={{float:"right"}}/>
                             </h3>                                                                                                          
                         </>
                     }

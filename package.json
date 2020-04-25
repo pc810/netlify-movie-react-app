@@ -27,7 +27,6 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0"
   },
-  "proxy": "https://reverent-darwin-514260.netlify.app",
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",

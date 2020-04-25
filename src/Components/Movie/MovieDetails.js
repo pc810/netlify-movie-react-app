@@ -20,6 +20,7 @@ class MovieDetails extends React.Component{
     }
     componentDidMount(){
         fetch('https://reverent-darwin-514260.netlify.app/.netlify/functions/api/getMovieDetails?id='+this.state.id,{
+            mode: 'no-cors',    
             headers : { 
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'

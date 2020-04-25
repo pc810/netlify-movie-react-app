@@ -19,6 +19,7 @@ class MovieList extends React.Component{
         this.setState({pageSize: pageSize});      
         console.log(current, pageSize)
         fetch('https://reverent-darwin-514260.netlify.app/.netlify/functions/api/getMovieIdListMod?genre='+this.state.genre+'&page='+(current)+'&limit='+pageSize,{
+            mode: 'no-cors',        
             headers:{
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'

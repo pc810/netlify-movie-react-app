@@ -31,6 +31,7 @@ const ReviewComp = ({mid,list,triggerParentUpdate})=>{
         let postvalues = {mid:mid, values:values}
         let requestOptions = {
             method: 'POST',
+            mode: 'no-cors',    
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(postvalues)
         };

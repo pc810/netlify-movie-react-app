@@ -19,7 +19,7 @@ class MovieDetails extends React.Component{
         this.setState({selected: e.target.id});
     }
     componentDidMount(){
-        fetch('/.netlify/functions/api/getMovieDetails?id='+this.state.id,{
+        fetch('https://reverent-darwin-514260.netlify.app/.netlify/functions/api/getMovieDetails?id='+this.state.id,{
             headers : { 
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'

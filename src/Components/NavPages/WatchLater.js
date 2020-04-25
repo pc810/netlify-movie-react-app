@@ -13,7 +13,7 @@ function WatchLater(){
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(values)
             };
-            fetch('/.netlify/functions/api/getMovieDetailsWithIds', requestOptions)
+            fetch('https://reverent-darwin-514260.netlify.app/.netlify/functions/api/getMovieDetailsWithIds', requestOptions)
             .then(response => response.json())
             .then(response=>{
                 setLaterlist(response.movies);            

@@ -22,7 +22,7 @@ function SignUp (){
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(values)
         };
-        fetch('/.netlify/functions/api/register', requestOptions)
+        fetch('https://reverent-darwin-514260.netlify.app/.netlify/functions/api/register', requestOptions)
         .then(response => {
             console.log(response)
         }).catch(error => {

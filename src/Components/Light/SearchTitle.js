@@ -8,7 +8,7 @@ function SearchTitle (props) {
     const handleValueChange = (event)=>{        
         //getMovieByName
         console.log(event.target.value);
-        fetch('/.netlify/functions/api/getMovieByName?name='+event.target.value,{
+        fetch('https://reverent-darwin-514260.netlify.app/.netlify/functions/api/getMovieByName?name='+event.target.value,{
             headers : { 
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'

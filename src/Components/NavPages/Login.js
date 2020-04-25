@@ -22,7 +22,7 @@ function Login (){
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(values)
         };
-        fetch('/.netlify/functions/api/login', requestOptions)
+        fetch('https://reverent-darwin-514260.netlify.app/.netlify/functions/api/login', requestOptions)
         .then(response=>response.json())
         .then(response=>{
             console.log(response)

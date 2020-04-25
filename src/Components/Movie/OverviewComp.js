@@ -88,7 +88,7 @@ const OverviewComp = ({Movie})=>{
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(values)
             };
-            fetch('/.netlify/functions/api/removeWatchLater', requestOptions)
+            fetch('https://reverent-darwin-514260.netlify.app/.netlify/functions/api/removeWatchLater', requestOptions)
             .then(response => {
                 console.log(response);
             })
@@ -107,7 +107,7 @@ const OverviewComp = ({Movie})=>{
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(values)
             };
-            fetch('/.netlify/functions/api/addWatchLater', requestOptions)
+            fetch('https://reverent-darwin-514260.netlify.app/.netlify/functions/api/addWatchLater', requestOptions)
             .then(response => {
                 console.log(response);
             })

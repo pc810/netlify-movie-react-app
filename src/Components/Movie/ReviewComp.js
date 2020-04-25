@@ -34,7 +34,7 @@ const ReviewComp = ({mid,list,triggerParentUpdate})=>{
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(postvalues)
         };
-        fetch('/.netlify/functions/api/PostReview', requestOptions)
+        fetch('https://reverent-darwin-514260.netlify.app/.netlify/functions/api/PostReview', requestOptions)
         .then(response => {
            // triggerParentUpdate();
             console.log(response);

@@ -23,7 +23,7 @@ function API (){
         .then(response => response.json())
         .then(response=>{
             if(response.predict!=null){
-                predict = parseInt(response.data.predict);
+                let predict = parseInt(response.data.predict);
                 setType(predict);
             }
             else{

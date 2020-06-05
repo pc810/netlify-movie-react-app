@@ -75,6 +75,15 @@ body{
 .menu-icon-container{
   display: none;    
 }
+.NEUTRAL{
+  background-color: black;
+}
+.POSITIVE{
+  background-color: green;
+}
+.NEGATIVE{
+  background-color: red;
+}
 @media(max-width: 767px){
   .menu-icon-container{
     display: inline-block;

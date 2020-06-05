@@ -73,6 +73,9 @@ render() {
                     <Link to="/Movies/all">Movies</Link>              
                   </li>
                   <li>
+                    <Link to="/API">API</Link>
+                  </li>
+                  <li>
                     <Link to="/Contactus">Contact Us</Link>
                   </li>
                     {rest}                  

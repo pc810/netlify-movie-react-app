@@ -11,6 +11,9 @@ class LeftMenu extends Component {
         <Menu.Item key="movies">
           <Link to="/Movies/all">Movies</Link>
         </Menu.Item>
+        <Menu.Item key="API">                  
+          <Link to="/API">API</Link>
+        </Menu.Item>
         <Menu.Item key="contact">          
           <Link to="/Contactus">Contact Us</Link>
         </Menu.Item>

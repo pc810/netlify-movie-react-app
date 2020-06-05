@@ -72,9 +72,9 @@ render() {
                   <li>
                     <Link to="/Movies/all">Movies</Link>              
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to="/API">API</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link to="/Contactus">Contact Us</Link>
                   </li>

@@ -27,7 +27,7 @@ function App() {
       <Route path="/Signup" exact component={SignUp}/>
       <Route path="/Login" exact component={Login}/>
       <Route path="/WatchLater" exact component={WatchLater}/>
-      <Route path="/API" exact component={API}/>
+      {/* <Route path="/API" exact component={API}/> */}
       <Route path="/Movie/:id" exact component={MovieDetails}/>
     </Router>    
   );

@@ -39,7 +39,7 @@ const OverviewComp = ({Movie})=>{
                 );        
         }else
             setGlist('undef');       
-        setStars(Movie.stars/2);        
+        setStars(Math.round(Movie.stars/2));        
         if(Movie.release_info !== undefined)
             setReleasedate(Movie.release_info.datestring);
         if(Movie.running_time !== undefined)

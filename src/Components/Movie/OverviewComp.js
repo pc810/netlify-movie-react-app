@@ -140,7 +140,7 @@ const OverviewComp = ({Movie})=>{
                         {year}
                     </Link>
                 </h3>
-                <Tooltip placement="bottom" title={Movie.stars}>
+                <Tooltip placement="bottom" title={Math.round(Movie.stars)}>
                     <div style={{fontSize:'2em'}}>                                                       
                         <Rate disabled allowHalf style={{ fontSize: '1em ', color: '#2196f3' }} value={stars}/>                                                                        
                     </div>                                          
